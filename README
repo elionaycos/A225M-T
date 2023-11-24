@@ -1,0 +1,32 @@
+# Kernel para o A225M com Android 13
+
+Este repositório contém o código-fonte do kernel para o dispositivo Samsung A225M com suporte ao Android 13. O kernel foi compilado e testado com sucesso, apresentando funcionalidades operacionais para WiFi e Bluetooth.
+
+## Informações do Kernel
+
+- **Versão do Kernel:** A225MUBU4CVK5
+- **Nome do Arquivo:** SM-A225M_LATIN_13_Opensource.zip
+- **Site Oficial Samsung Open Source:** [https://opensource.samsung.com/uploadSearch](https://opensource.samsung.com/uploadSearch)
+
+## Funcionalidades Adicionais
+
+- Suporte para carregar drivers e módulos usando `insmod` ou `modprobe`.
+- Suporte ao KernelSU adicionado.
+
+## Ativação do KernelSU
+
+Para ativar o suporte ao KernelSU, siga os passos abaixo:
+
+1. Utilize o comando `make menuconfig`.
+2. Navegue até a opção "General Setup".
+3. Ative a opção "Kprobes".
+
+Com isso, o KernelSU estará habilitado e pronto para uso.
+
+## Modificações e Contribuições
+
+Este repositório está aberto a modificações e contribuições. Sinta-se à vontade para ajustar o código conforme necessário. Por favor, mantenha os créditos [@Elliot_dev](https://telegram.me/Elliot_dev).
+
+**Observação:** Certifique-se de revisar e testar as alterações antes de submeter contribuições.
+
+Agradecemos a sua colaboração!
